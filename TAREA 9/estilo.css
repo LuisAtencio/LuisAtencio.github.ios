@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(img/fondo.jpg); 
+    background-size: cover; 
+  }
+#fondo{
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+
+}
+#Inicio{
+    width:85%;
+    margin:25px auto;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+.Inicios{
+    padding-left: 10px;
+}
+section{
+    width:85%;
+    margin:25px auto;
+    display: flex;
+}
+#contenedor{
+    padding: 30px;
+    list-style-type: none;
+    background:linear-gradient(45deg,rgb(189, 68, 68), rgb(235, 235, 85),rgb(231, 100, 100),rgb(231, 231, 86));
+}
+#sincolor{
+    color: inherit;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#header a{
+    padding:10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+#header a:hover{
+    background-color: rgb(253, 110, 82);
+    color:rgb(255, 255, 255);
+}
+#tarifario{
+    width: 70%;
+    margin-top: 60px;
+}
+.formulario{
+    width:300px ;
+    margin:20px auto ;
+    border: 1px solid black;
+    background-color:  brown;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+h4{
+    text-align: center;
+    color: rgb(247, 247, 247);
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+ }
+.Boton{
+    background-color: rgb(252, 201, 201);
+    border-radius: 5px;
+    width: 300px;
+    border: solid 1px yellow;
+}
+.Botones{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+@font-face{
+    font-family:Luis ;
+    src: url(fons/Oswald/Oswald-VariableFont_wght.ttf);
+}
+#footer{
+    margin: auto;
+    column-count:4 ;
+    column-gap: 1em;
+    column-rule-color: rgb(255, 255, 255);
+    column-rule-style: dashed;
+    column-rule-style:1px ;
+    column-width: 80px;
+    background-color: brown;
+    color: white;
+}
+h1,h2,h3{
+    column-span: all;/*crear columnas*/
+    text-align: center;
+}
+table{ 
+    border-radius: 5px;
+    text-align: center;
+}
+td{
+    border: solid 3px rgb(253, 235, 176);
+}
+#footer{
+    padding: 30px;
+}
+.parrafo{
+    padding: 50px;
+}
+#audio{
+    display: none;
+}
+  

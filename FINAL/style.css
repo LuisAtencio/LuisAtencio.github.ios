@@ -1,0 +1,125 @@
+#perfil{
+    text-align: center;
+    align-items: center;
+
+}
+#border{
+    border-radius: 155px;
+}
+#hola{
+    font-family: "Anton SC", sans-serif;
+}
+#sobremi{
+    background-color: rgb(0, 0, 30);
+    padding: 80px;
+    color: white;
+    text-align: center;
+}
+#contenido p{
+    text-align: justify;
+    padding:20px;
+    color: var(--color1);
+}
+#galeria {
+  margin: auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item {
+    width: 30%;  
+    margin:10px;
+    text-align: center; 
+}
+.item img {
+  width:100%;
+  box-shadow: 5px 5px 5px var(--color4);
+}
+.item a{
+    opacity: 0.7;
+}
+.item a:hover{
+    opacity: 1;
+}
+#imagen{
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.redes li a{
+    padding: 5px;
+}
+.redes li a:hover{
+    opacity: 0.5;
+}
+.redes li a img{
+    filter: invert(100%);
+}
+table {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #ddd;
+}
+#testimonialCarousel{
+    height:auto;
+    text-align: center;
+    justify-content: center;
+}
+#testimonialCarousel p{
+    padding: 50px;
+}
+#testimonialCarousel .carousel-item {
+    text-align: center; 
+}
+
+#testimonialCarousel .carousel-item p {
+    width: 75%; 
+    margin: 0 auto 10px; 
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel-caption p {
+    color: #000; 
+}
+.carousel-caption h6 {
+    color: #000; 
+}
+.star-rating {
+    color: #FFD700;
+}
+#testimonialCarousel{
+    align-items: center;
+    text-align: center;
+}
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}

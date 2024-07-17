@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Final</title>
+    <link rel="shortcut icon" href="img/logo principal.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        .img-small {
+            width: 100px; /* Ajusta este valor según el tamaño deseado */
+            height: 100px; /* Ajusta este valor según el tamaño deseado */
+            object-fit: cover;
+        }
+        
+        .rounded-circle {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col border">
+                <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark px-3 mb-3">
+                    <div class="d-flex align-items-center">
+                        <img id="border" src="img/logo principal.png" alt="" width="60">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading1">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading2">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading3">Articulos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading4">Testimonios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <div id="perfil">
+                        <img id="border" src="img/perfil.jpeg" alt="" width="150">
+                        <h4 id="hola">Hola, soy Luis Atencio</h4>
+                        <p>Soy estudiante en el instituto de Isil, estudio sistemas e informacion</p>
+                        <img src="img/fondo.png" alt="" width="500px" class="img-fluid">
+                    </div>
+                    <div id="sobremi">
+                       <h4 id="hola">Conoce más sobre Luis</h4><br>
+                       <p id="scrollspyHeading1">Hola, soy Luis Atencio. Soy un estudiante responsable y amigable, apasionado por la tecnología. Actualmente, estoy cursando los cursos de sistemas, donde he adquirido habilidades clave en la creación de sitios y aplicaciones web eficientes y visualmente atractivas. Mi dedicación al estudio y mi entusiasmo por el aprendizaje continuo me permiten estar al día con las últimas tendencias y tecnologías del sector.
+                        Además, me considero una persona colaborativa y proactiva, siempre dispuesta a trabajar en equipo y a compartir conocimientos con mis compañeros. Mi objetivo es aplicar mis habilidades para desarrollar proyectos que cumplan con los estándares técnicos, también proporcionen una excelente experiencia de usuario.</p> 
+                    </div>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="card" style="width: 100%;">
+                              <img class="card-img-top" src="img/html5.png" width="100" height="250" alt="imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">HTML 5</h5>
+                                <p class="card-text">(Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).</p>
+                                <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="btn btn-primary">Ir a algún lugar</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card" style="width: 100%;">
+                              <img class="card-img-top" src="img/css3.png" width="100" height="250" alt="imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text">Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (incluyendo varios lenguajes basados en XML como SVG, MathML o XHTML). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.</p>
+                                <a href="https://developer.mozilla.org/es/docs/Web/CSS" class="btn btn-primary">Ir a algún lugar</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card" style="width: 100%;">
+                              <img class="card-img-top" src="img/js.png" width="100" height="274" alt="imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">JAVA SCRIPT</h5>
+                                <p class="card-text">JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node.</p>
+                                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" class="btn btn-primary">Ir a algún lugar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="contenido">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                        <div id="perfil">
+                            <h1 id="hola">Mis Proyectos recientes</h1>
+                            <p>Imagenes sobre que es HTML, CSS, JAVA SCRIPT</p>
+                    </div>
+                    <div id="galeria">  
+                        <div class="item">
+                            <a href="#"><img src="img/imagen1.png" height="200" alt="1" ></a>
+                        </div>            
+                        <div class="item">
+                            <a href="#"><img src="img/imagen2.png" height="200" alt="2" ></a>
+                        </div>            
+                        <div class="item">
+                            <a href="#"><img src="img/imagen3.png" height="200" alt="3" ></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="img/imagen4.png" height="200" alt="4" ></a>
+                        </div>            
+                        <div class="item">
+                            <a href="#"><img src="img/imagen5.png" height="200" alt="5" ></a>
+                        </div>            
+                        <div class="item">
+                            <a href="#"><img src="img/imagen6.png" height="200" alt="6" ></a>
+                        </div>
+                        <a href="" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                        <div id="perfil">
+                            <h1 id="hola">Articulos</h1>
+                        </div>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Mas recientes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <div id="perfil">
+                        <h1 id="hola">Testimonios</h1>
+                        <p>Imagenes sobre que es HTML, CSS, JAVA SCRIPT</p>
+                    </div>
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/testimonio1.avif" class="testimonial-img mx-auto d-block" alt="Cliente 1">
+                                <div>
+                                    <p>"Excelente servicio."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div >
+                               
+                                        <h6>Carlos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/testimonio2.avif" class="testimonial-img mx-auto d-block" alt="Cliente 2">
+                                <div>
+                                    <p>"Gran calidad y entrega rápida."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div >
+                                       
+                                        <h6>Juan</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/testimonio3.avif" class="testimonial-img mx-auto d-block" alt="Cliente 3">
+                                <div>
+                                    <p>"El trabajo superó mis expectativas."</p>
+                                </div><br>
+                                <div class="carousel-caption">
+                                    <div>
+                                        
+                                        <h6>Maria</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="sobremi">
+                        <div id="perfil">
+                            <img id="border" src="img/logo principal.png" alt="" width="150">
+                            <p>Aprendo y creo todos los dias. <br> Creemos un proyecto juntos</p>
+                        </div>
+                        <div>
+                            <ul class="redes">
+                                <li><a href="#"><img src="img/x.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/tik-tok.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
